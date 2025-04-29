@@ -21,19 +21,18 @@ A Python script to analyze AWS S3 storage usage, identify cost-saving opportunit
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/s3-cost-optimizer.git
 cd s3-cost-optimizer
 2. Set Up Virtual Environment (Recommended)
-bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3. Install Dependencies
-bash
+
 pip install -r requirements.txt
 Note: If you don't have a requirements.txt file, install dependencies manually:
 
-bash
+
 pip install boto3
 4. Configure the Script
 Edit the configuration section at the top of s3_cost_optimizer.py:
@@ -46,7 +45,7 @@ days_threshold = 1000           # Files older than this many days will be flagge
 output_csv = 's3_file_analysis_report.csv'
 storage_cost_report = 's3_storage_cost_report.txt'
 5. Run the Script
-bash
+
 python s3_cost_optimizer.py
 6. View the Reports
 After successful execution, check the generated reports in the project directory:
@@ -124,7 +123,7 @@ pycache/
 
 
 3. **Consider adding a setup script** (setup.sh) for Linux/Mac users:
-```bash
+
 #!/bin/bash
 python -m venv venv
 source venv/bin/activate
@@ -137,4 +136,3 @@ python -m venv venv
 pip install -r requirements.txt
 Would you like me to make any other additions or modifications to the README?
 
-New chat
