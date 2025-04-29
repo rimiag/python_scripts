@@ -3,7 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A powerful Python tool to analyze AWS S3 storage usage, identify cost-saving opportunities, and generate actionable reports.
+A  Python tool which have created to analyze my company AWS S3 storage usage, identify cost-saving opportunities, and generate actionable reports.
 
 ## 📦 Repository Contents
 s3-cost-optimizer/
@@ -21,7 +21,7 @@ s3-cost-optimizer/
 git clone https://github.com/yourusername/s3-cost-optimizer.git
 cd s3-cost-optimizer
 2. Set Up Virtual Environment (Recommended)
-bash
+
 # For Linux/Mac:
 python3 -m venv venv
 source venv/bin/activate
