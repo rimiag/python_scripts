@@ -50,21 +50,21 @@ python s3_cost_optimizer.py
 📊 Understanding the Output
 The script generates two reports:
 
-Detailed File Analysis (CSV)
+  Detailed File Analysis (CSV)
 
-Identifies duplicate files
+  Identifies duplicate files
 
-Flags old files based on your threshold
+  Flags old files based on your threshold
 
-Shows potential storage savings
+  Shows potential storage savings
 
-Storage Cost Report (TXT)
+  Storage Cost Report (TXT)
 
-Breaks down current storage usage
+  Breaks down current storage usage
 
-Shows potential savings from cleanup
+  Shows potential savings from cleanup
 
-Estimates costs across all S3 storage tiers
+  Estimates costs across all S3 storage tiers
 
 🧰 Advanced Usage
 Analyze specific date ranges
@@ -117,9 +117,9 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 📧 Contact
-Your Name - your.email@example.com
+Your Name - rizwancl@gmail.com
 
-Project Link: https://github.com/yourusername/s3-cost-optimizer
+Project Link: https://github.com/rimiag/s3-cost-optimizer
 
 
 ### Additional Files to Create:
