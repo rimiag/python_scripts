@@ -30,11 +30,10 @@ source venv/bin/activate
 python -m venv venv
 .\venv\Scripts\activate
 3. Install Dependencies
-bash
-pip install -r requirements.txt
-Note: The requirements.txt contains:
 
-boto3>=1.28.0
+pip install -r requirements.tx
+
+
 ⚙️ Configuration
 Edit the configuration section in s3_cost_optimizer.py:
 
@@ -46,7 +45,7 @@ days_threshold = 365                    # Files older than this will be flagged
 output_csv = 's3_optimization_report.csv'
 storage_cost_report = 's3_cost_analysis.txt'
 🚀 Running the Analysis
-bash
+
 python s3_cost_optimizer.py
 📊 Understanding the Output
 The script generates two reports:
